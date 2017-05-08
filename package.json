@@ -15,7 +15,7 @@
     "lodash.isplainobject": "^4.0.6"
   },
   "name": "select-random",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Select random item from plain object or array-like one.",
   "main": "lib/selectRandom.js",
   "repository": "https://github.com/bloadvenro/select-random.git",

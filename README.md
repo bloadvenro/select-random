@@ -1,6 +1,6 @@
 # Select random item from plain object or array-like one.
 
-The package contains fast random int generator, based on bitwise shift. Another fully Math.random-based alternatives (e.g. lodash.random) are ~4-5 times slower:
+The package contains fast random int generator in its core, based on bitwise shift. Another fully Math.random-based alternatives (e.g. lodash.random) are ~4-5 times slower:
 
 ```
 // Chance to get number 3 in range 1-10 for 10000 iterations (average values of 100 sequential tests) 

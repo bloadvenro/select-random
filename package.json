@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/lodash.isplainobject": "^4.0.2",
+    "@types/lodash.values": "^4.3.2",
+    "@types/mocha": "^2.2.41",
+    "chai": "^3.5.0",
+    "lodash.values": "^4.3.0",
+    "mocha": "^3.3.0",
+    "mocha-clean": "^1.0.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.6"
+  },
+  "name": "select-random",
+  "version": "1.0.0",
+  "description": "Select random item from plain object or array-like one.",
+  "main": "lib/selectRandom.js",
+  "repository": "https://github.com/bloadvenro/select-random.git",
+  "author": "Viktor Petevotov <bloadvenro@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "files": [
+    "./README.md",
+    "./lib",
+    "./yarn.lock"
+  ]
+}
